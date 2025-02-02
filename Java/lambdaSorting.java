@@ -14,6 +14,8 @@ public class lambdaSorting {
         /**
          * Sorting using a lambda expression
          * Change: swap a and b 
+         * 
+         * Previously: 
          * names.sort((a, b) -> a.compareTo(b)); // a is smaller than b
          */
         names.sort((b, a) -> a.compareTo(b)); // b is smaller than a
