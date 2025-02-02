@@ -14,13 +14,14 @@ public class streamFilter {
         /**
          * Filtering using Stream API
          * Change: Change parameters in filter
+         * 
+         * Previously: 
          * List<Integer> evenNumbers = numbers.stream()
          *                                    .filter(n -> n % 2 == 0)
          *                                    .collect(Collectors.toList());
          *  
          */
         
-         // Changed
          List<Integer> overFourty = numbers.stream()
                                            .filter(n -> n >= 40)
                                            .collect(Collectors.toList());
